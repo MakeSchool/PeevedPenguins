@@ -47,6 +47,7 @@
 		D74ED67715E5725F00BAE9E3 /* bearframes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74ED67315E5725F00BAE9E3 /* bearframes.plist */; };
 		D74ED67815E5725F00BAE9E3 /* bearframes.png in Resources */ = {isa = PBXBuildFile; fileRef = D74ED67415E5725F00BAE9E3 /* bearframes.png */; };
 		D782F1FF15E557EF00282317 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D782F1FE15E557EF00282317 /* Seal.m */; };
+		D7D6EA2115FA74DD000C7FF0 /* explo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7D6EA2015FA74DC000C7FF0 /* explo2.wav */; };
 		D7D9EDE215E41FD500C6E9BD /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D9EDE115E41FD500C6E9BD /* GameData.m */; };
 		DC485B1113AA0E5600F2BC70 /* libchipmunk-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */; };
 		DC485B1713AA0EBB00F2BC70 /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */; };
@@ -129,6 +130,7 @@
 		D74ED67415E5725F00BAE9E3 /* bearframes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bearframes.png; sourceTree = "<group>"; };
 		D782F1FD15E557EF00282317 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seal.h; sourceTree = "<group>"; };
 		D782F1FE15E557EF00282317 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seal.m; sourceTree = "<group>"; };
+		D7D6EA2015FA74DC000C7FF0 /* explo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo2.wav; sourceTree = "<group>"; };
 		D7D9EDE015E41FD500C6E9BD /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
 		D7D9EDE115E41FD500C6E9BD /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
 		DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-iOS.xcconfig"; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				AA3296D615CEC40D00DEE33D /* config.lua */,
+				D7D6EA2015FA74DC000C7FF0 /* explo2.wav */,
 				D74ED67115E5725F00BAE9E3 /* bearframes-hd.plist */,
 				D74ED67215E5725F00BAE9E3 /* bearframes-hd.png */,
 				D74ED67315E5725F00BAE9E3 /* bearframes.plist */,
@@ -486,6 +489,7 @@
 				D74ED67615E5725F00BAE9E3 /* bearframes-hd.png in Resources */,
 				D74ED67715E5725F00BAE9E3 /* bearframes.plist in Resources */,
 				D74ED67815E5725F00BAE9E3 /* bearframes.png in Resources */,
+				D7D6EA2115FA74DD000C7FF0 /* explo2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
