@@ -57,7 +57,7 @@ local config =
 		AdMobRefreshRate = 15,
 		AdMobFirstAdDelay = 5,
 		AdMobPublisherID = "YOUR_ADMOB_PUBLISHER_ID", -- how to get an AdMob Publisher ID: http://developer.admob.com/wiki/PublisherSetup
-		AdMobTestMode = YES,
+		AdMobTestMode = NO,
 
 		-- Mac OS specific settings
 		AutoScale = NO,

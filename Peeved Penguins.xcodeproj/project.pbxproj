@@ -49,6 +49,7 @@
 		D782F1FF15E557EF00282317 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D782F1FE15E557EF00282317 /* Seal.m */; };
 		D7D6EA2115FA74DD000C7FF0 /* explo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7D6EA2015FA74DC000C7FF0 /* explo2.wav */; };
 		D7D9EDE215E41FD500C6E9BD /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D9EDE115E41FD500C6E9BD /* GameData.m */; };
+		D7E5A662161BB65D005E2740 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E5A661161BB65D005E2740 /* Default-568h@2x.png */; };
 		DC485B1113AA0E5600F2BC70 /* libchipmunk-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */; };
 		DC485B1713AA0EBB00F2BC70 /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */; };
 		DC485B4613AA18A600F2BC70 /* libcocosdenshion-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B4513AA18A600F2BC70 /* libcocosdenshion-mac.a */; };
@@ -133,6 +134,7 @@
 		D7D6EA2015FA74DC000C7FF0 /* explo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo2.wav; sourceTree = "<group>"; };
 		D7D9EDE015E41FD500C6E9BD /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
 		D7D9EDE115E41FD500C6E9BD /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
+		D7E5A661161BB65D005E2740 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-iOS.xcconfig"; sourceTree = "<group>"; };
 		DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libchipmunk-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libbox2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,6 +264,7 @@
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
+				D7E5A661161BB65D005E2740 /* Default-568h@2x.png */,
 				DCC1A38C13A94F1A005BD75D /* Projectfiles */,
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
 				DCC1A26413A94EE6005BD75D /* Projectfiles-Mac */,
@@ -490,6 +493,7 @@
 				D74ED67715E5725F00BAE9E3 /* bearframes.plist in Resources */,
 				D74ED67815E5725F00BAE9E3 /* bearframes.png in Resources */,
 				D7D6EA2115FA74DD000C7FF0 /* explo2.wav in Resources */,
+				D7E5A662161BB65D005E2740 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

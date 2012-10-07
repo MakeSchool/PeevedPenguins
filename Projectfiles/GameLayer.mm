@@ -18,6 +18,7 @@ CCSprite *block;
 CGRect firstrect;
 CGRect secondrect;
 NSMutableArray *blocks = [[NSMutableArray alloc] init];
+CCSprite* background;
 
 
 @interface GameLayer (PrivateMethods)
@@ -113,11 +114,11 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         //Add all the sprites to the game, including blocks and the catapult. It's tedious...
         //See the storing game data tutorial to learn how to abstract all of this out to a plist file
         
-        CCSprite *sprite = [CCSprite spriteWithFile:@"background.png"];
-        sprite.anchorPoint = CGPointZero;
-        [self addChild:sprite z:-1];
+        background = [CCSprite spriteWithFile:@"background.png"];
+        background.anchorPoint = CGPointZero;
+        [self addChild:background z:-1];
         
-        sprite = [CCSprite spriteWithFile:@"catapult.png"];
+        CCSprite* sprite = [CCSprite spriteWithFile:@"catapult.png"];
         sprite.anchorPoint = CGPointZero;
         sprite.position = CGPointMake(135.0f, FLOOR_HEIGHT);
         [self addChild:sprite z:0];
@@ -560,12 +561,11 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
     {
         b2Vec2 position = bulletBody->GetPosition();
         CGPoint myPosition = self.position;
-        CGSize screenSize = [CCDirector sharedDirector].winSize;
-        
+    
         // Move the camera.
-        if (position.x > screenSize.width / 2.0f / PTM_RATIO)
+        if (position.x > 240.0 / PTM_RATIO)
         {
-            myPosition.x = -MIN(screenSize.width * 2.0f - screenSize.width, position.x * PTM_RATIO - screenSize.width / 2.0f);
+            myPosition.x = -MIN(480.0, position.x * PTM_RATIO - 240.0);
             self.position = myPosition;
         }
     }
